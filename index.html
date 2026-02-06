@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SPALOON | Premium Men Spa in Kuwait</title>
+
+  <meta name="description" content="SPALOON is a premium men spa & grooming lounge in Kuwait offering massage, grooming & relaxation services.">
+  <meta name="keywords" content="men spa kuwait, grooming lounge kuwait, massage for men">
+  <meta name="author" content="SPALOON">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              black: '#0F0F0F',
+              dark: '#1A1A1A',
+              gold: '#D4AF37',
+              amber: '#F5C542',
+              gray: '#B3B3B3',
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    body { font-family: 'Poppins', sans-serif; }
+    .font-luxury { font-family: 'Playfair Display', serif; }
+  </style>
+</head>
+<body class="bg-brand-black text-white">
+
+<!-- NAVBAR -->
+<header class="fixed w-full bg-black/80 backdrop-blur z-50">
+  <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+    <span class="text-xl font-bold text-brand-gold">SPALOON</span>
+    <nav class="hidden md:flex space-x-8 text-sm">
+      <a href="#home" class="hover:text-brand-gold">Home</a>
+      <a href="#about" class="hover:text-brand-gold">About</a>
+      <a href="#services" class="hover:text-brand-gold">Services</a>
+      <a href="#locations" class="hover:text-brand-gold">Locations</a>
+      <a href="#contact" class="hover:text-brand-gold">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<!-- HERO -->
+<section id="home" class="relative min-h-screen flex items-center justify-center text-center px-6">
+  <img src="background.jpg" class="absolute inset-0 w-full h-full object-cover">
+  <div class="absolute inset-0 bg-black/65"></div>
+  <div class="relative z-10 max-w-4xl">
+    <h1 class="text-4xl md:text-6xl font-bold mb-4">Premium Men Spa Experience</h1>
+    <p class="text-lg text-brand-gray mb-4">A private space designed for men to relax, recharge and look their best.</p>
+    <p class="text-brand-gray/80 text-sm mb-8">Trusted by over <span class="text-brand-gold font-semibold">500 clients</span></p>
+    <a href="#contact" class="inline-block border border-brand-gold text-brand-gold px-10 py-3 rounded-full hover:bg-brand-gold hover:text-black transition">Contact Us</a>
+    <div class="mt-12 animate-bounce">
+      <svg class="w-6 h-6 mx-auto text-brand-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="py-24 px-6 bg-brand-dark">
+  <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+    <div>
+      <h2 class="text-3xl md:text-4xl font-bold mb-6 font-luxury">About SPALOON</h2>
+      <p class="text-brand-gray text-lg mb-4">
+        SPALOON is a premium men’s spa and grooming lounge in Kuwait, created for those who value quality, privacy, and personal care.
+      </p>
+      <p class="text-brand-gray text-lg mb-4">
+        Our environment and treatments are carefully designed to deliver a premium experience in a calm, refined space.
+      </p>
+
+      <!-- Values -->
+      <div class="grid grid-cols-2 gap-4 text-sm text-brand-gray mt-4">
+        <p>✔ Privacy & Comfort</p>
+        <p>✔ Professional Therapists</p>
+        <p>✔ Premium Hygiene Standards</p>
+        <p>✔ Quality Products</p>
+      </div>
+
+      <!-- Founder -->
+      <div class="flex items-center gap-4 mt-8">
+        <img src="founder.jpg" class="w-20 h-20 rounded-full object-cover">
+        <div>
+          <h4 class="text-brand-gold font-semibold">John Doe</h4>
+          <p class="text-brand-gray text-sm">Founder & Head Therapist</p>
+        </div>
+      </div>
+      <p class="mt-4 text-brand-gray italic text-sm">“At SPALOON, self-care is not a luxury — it’s a necessity.”</p>
+    </div>
+
+    <div class="rounded-xl overflow-hidden">
+      <img src="FullLogo.png" alt="About SPALOON" class="w-full h-full object-cover">
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="py-20 px-6 bg-brand-black">
+  <div class="max-w-4xl mx-auto text-center">
+    <div class="mx-auto w-12 h-1 bg-brand-gold mb-4"></div>
+    <h2 class="text-3xl md:text-4xl font-bold mb-6 font-luxury">Our Services</h2>
+    <p class="text-brand-gray text-lg mb-8">
+      View our complete premium spa & grooming services in our PDF menu.
+    </p>
+
+    <a href="services.pdf" target="_blank" aria-label="View SPALOON services PDF"
+       class="inline-flex items-center gap-2 bg-brand-gold text-black px-10 py-4 rounded-full font-semibold 
+              hover:bg-brand-amber hover:scale-105 transition-transform duration-200 md:mt-6">
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"/>
+      </svg>
+      View Services (PDF)
+    </a>
+
+    <p class="text-sm text-brand-gray mt-6">
+      *Prices and services are subject to change without notice.
+    </p>
+  </div>
+</section>
+
+<!-- WHY US -->
+<section class="py-20 px-6 bg-brand-dark">
+  <div class="max-w-5xl mx-auto text-center">
+    <h2 class="text-3xl md:text-4xl font-bold mb-10 font-luxury">Why Choose SPALOON</h2>
+    <div class="grid md:grid-cols-2 gap-6 text-left text-lg">
+      <div class="flex items-start gap-2">
+        <svg class="w-5 h-5 text-brand-gold flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+        </svg>
+        <p class="text-brand-gray">Designed exclusively for men</p>
+      </div>
+      <div class="flex items-start gap-2">
+        <svg class="w-5 h-5 text-brand-gold flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+        </svg>
+        <p class="text-brand-gray">Private rooms & premium hygiene</p>
+      </div>
+      <div class="flex items-start gap-2">
+        <svg class="w-5 h-5 text-brand-gold flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+        </svg>
+        <p class="text-brand-gray">Experienced professional therapists</p>
+      </div>
+      <div class="flex items-start gap-2">
+        <svg class="w-5 h-5 text-brand-gold flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+        </svg>
+        <p class="text-brand-gray">High-quality grooming products</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- LOCATIONS -->
+<section id="locations" class="py-20 px-6 bg-brand-dark text-center">
+  <div class="max-w-5xl mx-auto">
+    <h2 class="text-3xl md:text-4xl font-bold mb-6 font-luxury">Our Locations</h2>
+    <p class="text-brand-gray text-lg mb-8">
+      Choose your nearest SPALOON branch to see the location on the map.
+    </p>
+
+    <div class="flex flex-wrap justify-center gap-4 mb-10">
+      <button onclick="showMap('kuwait-city')" class="px-6 py-2 rounded-full bg-brand-gold text-black font-semibold hover:bg-brand-amber transition">Kuwait City</button>
+      <button onclick="showMap('salmiya')" class="px-6 py-2 rounded-full bg-brand-gold text-black font-semibold hover:bg-brand-amber transition">Salmiya</button>
+      <button onclick="showMap('fahaheel')" class="px-6 py-2 rounded-full bg-brand-gold text-black font-semibold hover:bg-brand-amber transition">Fahaheel</button>
+      <button onclick="showMap('mangaf')" class="px-6 py-2 rounded-full bg-brand-gold text-black font-semibold hover:bg-brand-amber transition">Mangaf</button>
+    </div>
+
+    <div class="w-full aspect-video rounded-xl overflow-hidden shadow-lg">
+      <iframe id="branch-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.123456!2d47.9772!3d29.375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3fcf8f0d3d5b6b7d%3A0x1234567890abcdef!2sKuwait%20City!5e0!3m2!1sen!2sus!4v161234567890" 
+        style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="w-full h-full"></iframe>
+    </div>
+  </div>
+</section>
+
+<script>
+  const maps = {
+    "kuwait-city": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.123456!2d47.9772!3d29.375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3fcf8f0d3d5b6b7d%3A0x1234567890abcdef!2sKuwait%20City!5e0!3m2!1sen!2sus!4v161234567890",
+    "salmiya": "https://www.google.com/maps/embed?pb=!SalmiyaEmbedURL...",
+    "fahaheel": "https://www.google.com/maps/embed?pb=!FahaheelEmbedURL...",
+    "mangaf": "https://www.google.com/maps/embed?pb=!MangafEmbedURL..."
+  };
+
+  function showMap(branch) {
+    document.getElementById('branch-map').src = maps[branch];
+  }
+</script>
+
+<!-- CONTACT -->
+<section id="contact" class="py-20 px-6 bg-brand-black text-center">
+  <h2 class="text-3xl md:text-4xl font-bold mb-6 font-luxury">Contact Us</h2>
+  <p class="text-brand-gray mb-8">Reach out to us for inquiries or appointment bookings.</p>
+
+  <a href="https://wa.me/965XXXXXXXX" class="inline-block bg-brand-gold text-black px-10 py-3 rounded-full font-semibold hover:bg-brand-amber transition">WhatsApp Us</a>
+
+  <form class="max-w-md mx-auto mt-10 space-y-4">
+    <input type="text" placeholder="Name" class="w-full p-3 rounded bg-brand-dark text-white border border-brand-gray/30">
+    <input type="tel" placeholder="Phone" class="w-full p-3 rounded bg-brand-dark text-white border border-brand-gray/30">
+    <textarea placeholder="Message" class="w-full p-3 rounded bg-brand-dark text-white border border-brand-gray/30"></textarea>
+    <button type="submit" class="w-full bg-brand-gold text-black py-3 rounded font-semibold hover:bg-brand-amber transition">Send Message</button>
+  </form>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-black py-8 text-center text-brand-gray text-sm">
+  <div>© 2026 SPALOON. All Rights Reserved.</div>
+
+  <div class="flex justify-center gap-4 mt-3">
+    <!-- Instagram Icon -->
+    <a href="#" class="text-brand-gray hover:text-brand-gold transition" aria-label="Instagram">
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+        <path d="M7.75 2h8.5A5.75 5.75 0 0122 7.75v8.5A5.75 5.75 0 0116.25 22h-8.5A5.75 5.75 0 012 16.25v-8.5A5.75 5.75 0 017.75 2zm0 1.5A4.25 4.25 0 003.5 7.75v8.5A4.25 4.25 0 007.75 20.5h8.5a4.25 4.25 0 004.25-4.25v-8.5A4.25 4.25 0 0016.25 3.5h-8.5zM12 7a5 5 0 110 10 5 5 0 010-10zm0 1.5a3.5 3.5 0 100 7 3.5 3.5 0 000-7zm5.25-.75a1 1 0 110 2 1 1 0 010-2z"/>
+      </svg>
+    </a>
+
+    <!-- WhatsApp Icon -->
+    <a href="#" class="text-brand-gray hover:text-brand-gold transition" aria-label="WhatsApp">
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+        <path d="M20.52 3.48A11.92 11.92 0 0012 0C5.373 0 .02 5.355.02 12c0 2.12.552 4.108 1.6 5.86L0 24l6.44-1.6A11.934 11.934 0 0012 24c6.627 0 12-5.373 12-12 0-3.21-1.25-6.21-3.48-8.52zm-8.54 18.21a9.918 9.918 0 01-5.22-1.55l-.37-.22-3.81.95.96-3.71-.25-.38a9.905 9.905 0 011.49-12.95 9.905 9.905 0 0112.94-1.49c3.79 2.61 4.78 7.72 2.38 11.45a9.918 9.918 0 01-8.03 4.95zm5.5-7.78l-2.52 1.35c-.34.18-.77.09-.96-.25l-.89-1.53c-.18-.34-.09-.77.25-.96l2.52-1.35c.34-.18.77-.09.96.25l.89 1.53c.18.34.09.77-.25.96z"/>
+      </svg>
+    </a>
+  </div>
+</footer>
+
+
+</body>
+</html>
